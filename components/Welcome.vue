@@ -1,8 +1,15 @@
 <template>
   <div class="container">
     <h1>Welcome to Nuxt3</h1>
+    count: {{ count }}
+    <button @click="increment">increment</button>
   </div>
 </template>
+
+<script setup>
+const count = ref(0);
+const increment = () => count.value++;
+</script>
 
 <style>
 body {
