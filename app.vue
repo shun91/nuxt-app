@@ -1,12 +1,13 @@
 <template>
   <div>
+    <Head>
+      <Title>{{ title }}</Title>
+      <Style type="text/css" children="body { background-color: green; }"/>
+    </Head>
     <Welcome />
   </div>
 </template>
 
 <script setup>
-useHead({
-  title: 'Home',
-  titleTemplate: 'My App - %s'
-})
+const title = ref('Hello World')
 </script>

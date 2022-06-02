@@ -17,8 +17,8 @@ body {
 }
 
 .container {
-  height: 100vh;
-  width: 100vw;
+  height: 90vh;
+  width: 90vw;
   background: rgb(1, 42, 53);
   display: flex;
   flex-direction: column;
