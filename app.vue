@@ -12,5 +12,5 @@
 <script setup>
 const title = ref('Hello World')
 
-const hello = await $fetch('/api/hello')
+const hello = await $fetch('/api/hello/nuxt')
 </script>
