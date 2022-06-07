@@ -15,4 +15,6 @@ const title = ref('Hello World')
 const hello = await $fetch('/api/hello/nuxt')
 
 const postTest = await $fetch('/api/test', { method: 'post'})
+
+$fetch('/api/submit', { method: 'post', body: { test: 123 } })
 </script>
