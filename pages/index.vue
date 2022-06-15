@@ -6,6 +6,10 @@
     </Head>
     <Welcome />
     {{ hello }}
+
+    <div>
+      <NuxtLink to="use-lazy-fetch">use-lazy-fetch</NuxtLink>
+    </div>
   </div>
 </template>
 
