@@ -9,6 +9,7 @@
 
     <div>
       <NuxtLink to="use-lazy-fetch">use-lazy-fetch</NuxtLink>
+      <NuxtLink to="use-lazy-async-data">use-lazy-async-data</NuxtLink>
     </div>
   </div>
 </template>
