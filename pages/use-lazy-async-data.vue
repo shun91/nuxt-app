@@ -1,5 +1,6 @@
 <template>
   <div>{{ pending ? 'Loading' : count }}</div>
+  <button @click="refresh">refresh</button>
 </template>
 
 <script setup>
@@ -7,4 +8,6 @@
   watch(count, (newCount) => {
     console.log('newCount', newCount);
   })
+
+  const refresh = () => refreshNuxtData('count')
 </script>
